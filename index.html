@@ -1,212 +1,419 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>구글 상위노출 대행 | 구글 상위노출 대행 - SEO 전문 솔루션</title>
-<meta name="description" content="3개월 내 1페이지 보장 서비스. 실시간 순위 추적, 자동 보고서, 전문가 지원으로 검색 상위노출을 달성하세요.">
-<meta property="og:title" content="구글 상위노출 대행 | 구글 상위노출 대행 - SEO 전문 솔루션">
-<meta property="og:description" content="3개월 내 1페이지 보장 서비스. 실시간 순위 추적, 자동 보고서, 전문가 지원으로 검색 상위노출을 달성하세요.">
-<meta name="robots" content="index,follow">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
-
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:#100d00;color:#fef3c7;font-family:'Noto Sans KR',sans-serif}
-nav{background:#27200a;border-bottom:1px solid #b45309;padding:0 32px;height:64px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
-.logo{font-size:20px;font-weight:900;color:#d97706;letter-spacing:-0.5px}
-.nav-right{display:flex;gap:24px;align-items:center}
-.nav-right a{color:#fde68a;text-decoration:none;font-size:14px}
-.hero-banner{background:linear-gradient(160deg,#27200a,#100d00);border-bottom:1px solid #b45309;padding:60px 32px 40px;text-align:center}
-.hero-banner .badge{display:inline-block;background:#d97706;color:#fff;font-size:11px;font-weight:800;padding:4px 12px;border-radius:4px;letter-spacing:1px;margin-bottom:20px}
-.hero-banner h1{font-size:clamp(26px,4vw,48px);font-weight:900;line-height:1.2;margin-bottom:16px}
-.hero-banner p{color:#fde68a;font-size:16px;max-width:600px;margin:0 auto}
-.layout{display:grid;grid-template-columns:300px 1fr;gap:0;max-width:1280px;margin:0 auto;padding:40px 24px;gap:32px}
-@media(max-width:768px){.layout{grid-template-columns:1fr}}
-.sidebar{position:sticky;top:80px;height:fit-content}
-.sidebar-widget{background:#27200a;border:1px solid #b45309;border-radius:12px;padding:24px;margin-bottom:20px}
-.widget-title{font-size:14px;font-weight:700;color:#d97706;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #b45309}
-.widget-list{list-style:none}
-.widget-list li{padding:10px 0;border-bottom:1px solid #b4530922;display:flex;justify-content:space-between;align-items:center;font-size:14px}
-.widget-list li:last-child{border:none}
-.widget-list .num{background:#d9770622;color:#d97706;width:24px;height:24px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700}
-.main-article{}
-.article-header{background:#27200a;border:1px solid #b45309;border-radius:12px;padding:32px;margin-bottom:24px}
-.article-header h2{font-size:24px;font-weight:800;line-height:1.4;margin-bottom:12px}
-.article-header p{color:#fde68a;font-size:15px;line-height:1.7}
-.article-meta{display:flex;gap:16px;margin-top:16px;flex-wrap:wrap}
-.meta-tag{background:#d9770622;color:#d97706;padding:4px 12px;border-radius:100px;font-size:12px;font-weight:600}
-.item-card{background:#27200a;border:1px solid #b45309;border-radius:12px;padding:24px;margin-bottom:16px;display:flex;gap:20px;transition:border-color .2s}
-.item-card:hover{border-color:#d9770688}
-.item-rank{font-size:32px;font-weight:900;color:#d97706;min-width:48px;opacity:0.6}
-.item-content{}
-.item-name{font-size:18px;font-weight:700;margin-bottom:6px}
-.item-desc{color:#fde68a;font-size:14px;line-height:1.6;margin-bottom:12px}
-.item-tags{display:flex;gap:8px;flex-wrap:wrap}
-.tag{background:#b45309;color:#fde68a;padding:4px 10px;border-radius:6px;font-size:12px}
-.price-highlight{color:#d97706;font-weight:700;font-size:15px}
-.tip-section{background:#27200a;border:1px solid #d9770633;border-radius:12px;padding:24px;margin-top:24px}
-.tip-section h3{font-size:16px;font-weight:700;color:#d97706;margin-bottom:16px}
-.tip-item{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid #b4530933}
-.tip-item:last-child{border:none}
-.tip-num{background:#d97706;color:#fff;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;margin-top:2px}
-.tip-text{font-size:14px;color:#fde68a;line-height:1.6}
-.cta-widget{background:linear-gradient(135deg,#d9770633,#27200a);border:1px solid #d9770655;border-radius:12px;padding:28px;text-align:center}
-.cta-widget h3{font-size:18px;font-weight:800;margin-bottom:8px}
-.cta-widget p{color:#fde68a;font-size:13px;margin-bottom:20px}
-.cta-btn{display:block;background:#d97706;color:#fff;padding:12px;border-radius:8px;font-weight:700;text-decoration:none;font-size:14px}
-footer{border-top:1px solid #b45309;padding:24px 32px;text-align:center;color:#fde68a;font-size:13px;margin-top:60px}
-</style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="canonical" href="https://sf-t3-1779642675702-069.maphoshirts.com/">
-  <meta property="og:url" content="https://sf-t3-1779642675702-069.maphoshirts.com/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="bpaas-design-system" content="brutalist-avantgarde">
+  <meta name="bpaas-design-theme" content="kr-night-electric">
+  <title>대흥 가라오케 가격 정보 — 처음 방문자를 위한 조건별 선택 안내</title>
+  <meta name="description" content="대흥 가라오케 가격 정보를 표현과 개념 정리로 풀어냅니다. '그룹' '대실' '주대' 같은 흐린 표현을 바로잡아 오해 없는 선택을 돕습니다.">
+  <meta name="keywords" content="대흥 가라오케, 대흥 가라오케 가격, 대흥 가격 정보, 가라오케 용어, 대실 주대 차이, 그룹 기준">
+  <link rel="canonical" href="https://daeheung-karaoke-bar-note.tipdesk.site/">
+  <meta property="og:title" content="대흥 가라오케 가격 정보 — 개념 정리 먼저">
+  <meta property="og:description" content="급한 결정 앞에서 표현부터 맞추면 절반은 성공입니다. 대흥 가라오케 가격을 둘러싼 모호한 말들을 정리했습니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://daeheung-karaoke-bar-note.tipdesk.site/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;1,400&family=Noto+Sans+KR:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "name": "대흥 가라오케",
+          "url": "http://daeheung-karaoke-bar-note.tipdesk.site"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "\"그룹\"과 \"팀\"은 다른 뜻인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "지역에 따라 \"그룹\"은 인원 단위, \"팀\"은 회차 단위로 쓰이기도 합니다. 업소마다 사용법이 다르니 방문 전에 확인하세요."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "\"주대\"에는 무엇이 포함되나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "'주대'는 술값이 포함된 가격인 경우가 많지만, 안주 포함 여부는 별도입니다. '주대 O만 원'이라는 표시만 보고 안주까지 기대하면 오해할 수 있습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "예약 시 \"콜\"이라는 말을 쓰면 안 되나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "쓰셔도 됩니다. 다만 상대방이 어떻게 해석할지 예민해야 합니다. '콜'은 예약 확인과 도우미 요청 두 가지로 쓰입니다. 문맥을 분명히 하세요."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "카드에 적힌 가격이 실제 결제 금액인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "기본 시간 기준일 가능성이 높습니다. 연장, 주말 할증, 인원 추가 등이 더해질 수 있습니다. 반드시 '이 가격은 어떤 조건인지' 추가로 물어보세요."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "홈",
+              "item": "http://daeheung-karaoke-bar-note.tipdesk.site/"
+            }
+          ]
+        },
+        {
+          "@type": "Person",
+          "name": "대흥길잡이",
+          "description": "대흥 지역 가라오케 정보를 5년간 수집해온 로컬 가이드"
+        }
+      ]
+    }
+  </script>
+  <style>
+    /* ----- reset & base ----- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; scroll-behavior: smooth; }
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #07070e;
+      color: #f2f2ff;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    /* ----- grid background (Night Transit Map) ----- */
+    .r-top-i0de {
+      background:
+        repeating-linear-gradient(0deg, rgba(124,58,237,0.08) 0px, rgba(124,58,237,0.08) 1px, transparent 1px, transparent 32px),
+        repeating-linear-gradient(90deg, rgba(124,58,237,0.08) 0px, rgba(124,58,237,0.08) 1px, transparent 1px, transparent 32px);
+      background-color: #07070e;
+    }
+    /* ----- header (no nav, no hero) ----- */
+    .q-wrap-d559 {
+      padding: 4rem 2rem 3rem;
+      border-bottom: 3px solid #7c3aed;
+      text-align: center;
+    }
+    .q-wrap-d559 h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: clamp(2.2rem, 8vw, 4rem);
+      font-weight: 700;
+      color: #f2f2ff;
+      line-height: 1.1;
+    }
+    .q-wrap-d559 p {
+      font-family: 'Noto Sans KR', sans-serif;
+      font-size: 1.2rem;
+      color: #00c8a0;
+      margin-top: 1rem;
+      font-weight: 400;
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+      border-top: 1px solid rgba(242,242,255,0.15);
+      padding-top: 1rem;
+    }
+    /* ----- main container ----- */
+    .v-card-396z {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    /* ----- journal section (no cards, no shadows) ----- */
+    .x-foot-b3su {
+      background: #ffffff;
+      color: #111111;
+      padding: 2.5rem 2rem;
+      margin: 3rem auto;
+      border-radius: 0; /* no rounded corners */
+      box-shadow: none;
+    }
+    /* entry grid */
+    .x-side-yo22 {
+      display: grid;
+      grid-template-columns: 6.5rem 1fr;
+      gap: 1.5rem 2rem;
+      padding: 1.8rem 0;
+      border-bottom: 1px solid #e0e0e0;
+      align-items: start;
+    }
+    .x-side-yo22:first-of-type {
+      padding-top: 0;
+    }
+    .x-side-yo22:last-of-type {
+      border-bottom: none;
+    }
+    .x-img-iafq {
+      font-family: 'Barlow Condensed', sans-serif;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #7c3aed;
+      letter-spacing: 1px;
+      line-height: 1.4;
+      padding-top: 0.2rem;
+    }
+    .x-img-iafq time {
+      display: block;
+    }
+    .x-item-jcz5 {
+      font-family: 'Noto Sans KR', sans-serif;
+      font-size: 1rem;
+      line-height: 1.75;
+      color: #1a1a1a;
+    }
+    .x-item-jcz5 p {
+      margin-bottom: 0.75rem;
+    }
+    .x-item-jcz5 p:last-child {
+      margin-bottom: 0;
+    }
+    .x-item-jcz5 blockquote {
+      font-family: 'Noto Serif KR', serif;
+      font-style: italic;
+      border-left: 4px solid #7c3aed;
+      padding: 0.5rem 0 0.5rem 1.2rem;
+      margin: 1rem 0;
+      color: #444;
+      background: transparent;
+      box-shadow: none;
+    }
+    .x-item-jcz5 strong {
+      color: #7c3aed;
+      font-weight: 700;
+    }
+    .x-item-jcz5 .m-btn-pzkl {
+      background: linear-gradient(180deg, transparent 60%, rgba(124,58,237,0.18) 60%);
+      padding: 0 0.2rem;
+    }
+    /* ----- FAQ section (no cards) ----- */
+    .x-card-blf1 {
+      background: #ffffff;
+      color: #111111;
+      padding: 2.5rem 2rem;
+      margin: 0 auto 3rem;
+      border-top: 3px solid #7c3aed;
+    }
+    .x-card-blf1 h2 {
+      font-family: 'Barlow Condensed', sans-serif;
+      text-transform: uppercase;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      color: #111;
+      margin-bottom: 2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #7c3aed;
+      display: inline-block;
+    }
+    .t-ico-hvne {
+      display: grid;
+      gap: 0.8rem;
+      padding: 1.2rem 0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .t-ico-hvne:last-child {
+      border-bottom: none;
+    }
+    .t-img-wex2 {
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: #111;
+    }
+    .t-img-wex2::before {
+      content: "Q. ";
+      color: #7c3aed;
+      font-weight: 700;
+    }
+    .t-txt-trzw {
+      font-size: 0.95rem;
+      color: #333;
+      line-height: 1.7;
+      margin-top: 0.3rem;
+    }
+    .t-txt-trzw::before {
+      content: "A. ";
+      color: #00c8a0;
+      font-weight: 700;
+    }
+    /* ----- author bio (no card, just text) ----- */
+    .t-grid-jxik {
+      text-align: center;
+      padding: 2rem 1rem;
+      border-top: 2px solid rgba(242,242,255,0.1);
+      margin-top: 1rem;
+    }
+    .t-grid-jxik p {
+      font-family: 'Noto Sans KR', sans-serif;
+      color: #ccc;
+      font-size: 0.95rem;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .t-grid-jxik strong {
+      color: #f2f2ff;
+    }
+    /* ----- footer ----- */
+    .r-hero-2x5v {
+      background: #07070e;
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid rgba(242,242,255,0.08);
+      font-size: 0.85rem;
+      color: #666;
+    }
+    /* ----- responsive: collapse to 1 column at 32rem (512px) ----- */
+    @media (max-width: 32rem) {
+      .x-side-yo22 {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+      }
+      .x-img-iafq {
+        margin-bottom: 0.2rem;
+      }
+      .q-wrap-d559 {
+        padding: 2.5rem 1rem 2rem;
+      }
+      .x-foot-b3su,
+      .x-card-blf1 {
+        padding: 1.5rem 1rem;
+      }
+    }
+    /* ----- utility: no serif fonts in headings, no decorative flourishes ----- */
+    .r-hero-6e7x {
+      display: none; /* reserved for noise */
+    }
+  </style>
 </head>
 <body>
-<nav>
-  <div class="logo">구글 상위노출 대행</div>
-  <div class="nav-right">
-    <a href="#">홈</a>
-    <a href="#">정보</a>
-    <a href="#cta">상담</a>
-  </div>
-</nav>
-<div class="hero-banner">
-  <div class="badge">✦ 2025 실방문 검증</div>
-  <h1>구글 상위노출 대행</h1>
-  <p>3개월 내 1페이지 보장 서비스. 실시간 순위 추적, 자동 보고서, 전문가 지원으로 검색 상위노출을 달성하세요.</p>
-</div>
-<div class="layout">
-  <aside class="sidebar">
-    <div class="sidebar-widget">
-      <div class="widget-title">📌 인기 정보</div>
-      <ul class="widget-list">
-        <li><span>실시간 순위 추적</span><span class="num">1</span></li><li><span>고품질 링크 구축</span><span class="num">2</span></li><li><span>자동화 보고서</span><span class="num">3</span></li><li><span>전담 컨설턴트</span><span class="num">4</span></li><li><span>안전한 방식</span><span class="num">5</span></li>
-      </ul>
-    </div>
-    
-    <div class="cta-widget" id="cta">
-      <h3>무료 컨설팅 신청</h3>
-      <p>전문가가 빠르게 답변드립니다</p>
-      <a href="tel:010-0000-0000" class="cta-btn">지금 상담받기</a>
-    </div>
-  </aside>
-  <main class="main-article">
-    <div class="article-header">
-      <h2>3개월 내 1페이지 보장 서비스</h2>
-      <p>3개월 내 1페이지 보장 서비스. 실시간 순위 추적, 자동 보고서, 전문가 지원으로 검색 상위노출을 달성하세요.</p>
-      <div class="article-meta">
-        <span class="meta-tag">✓ 실방문 검증</span>
-        <span class="meta-tag">2025.05 업데이트</span>
-        <span class="meta-tag">전문가 작성</span>
-      </div>
-    </div>
-    <div class="item-card">
-        <div class="item-rank">01</div>
-        <div class="item-content">
-          <div class="item-name">실시간 순위 추적</div>
-          <div class="item-desc">구글·네이버·다음 동시 모니터링, 일별 변동 알림</div>
-          <div class="item-tags">
-            <span class="tag">정보</span>
-            
-            
-          </div>
-        </div>
-      </div><div class="item-card">
-        <div class="item-rank">02</div>
-        <div class="item-content">
-          <div class="item-name">고품질 링크 구축</div>
-          <div class="item-desc">DA 40+ 사이트 자연스러운 링크 프로필 형성</div>
-          <div class="item-tags">
-            <span class="tag">정보</span>
-            
-            
-          </div>
-        </div>
-      </div><div class="item-card">
-        <div class="item-rank">03</div>
-        <div class="item-content">
-          <div class="item-name">자동화 보고서</div>
-          <div class="item-desc">매주 월요일 이메일·카카오톡 성과 리포트</div>
-          <div class="item-tags">
-            <span class="tag">정보</span>
-            
-            
-          </div>
-        </div>
-      </div><div class="item-card">
-        <div class="item-rank">04</div>
-        <div class="item-content">
-          <div class="item-name">전담 컨설턴트</div>
-          <div class="item-desc">업종 전문 SEO 전문가 1:1 전담 배정</div>
-          <div class="item-tags">
-            <span class="tag">정보</span>
-            
-            
-          </div>
-        </div>
-      </div><div class="item-card">
-        <div class="item-rank">05</div>
-        <div class="item-content">
-          <div class="item-name">안전한 방식</div>
-          <div class="item-desc">구글 알고리즘 업데이트 대응, 패널티 리스크 최소화</div>
-          <div class="item-tags">
-            <span class="tag">정보</span>
-            
-            
-          </div>
-        </div>
-      </div><div class="item-card">
-        <div class="item-rank">06</div>
-        <div class="item-content">
-          <div class="item-name">성과 보장</div>
-          <div class="item-desc">3개월 내 목표 달성 미달 시 환불 보장</div>
-          <div class="item-tags">
-            <span class="tag">정보</span>
-            
-            
-          </div>
+  <!-- header: large title + supporting line (no nav, no hero) -->
+  <header class="q-wrap-d559 r-top-i0de" role="region" aria-label="사이트 머리">
+    <h1>대흥 가라오케 가격 정보</h1>
+    <p>표현을 정리하고 개념을 맞추는 가장 값싼 예방</p>
+  </header>
+
+  <main class="v-card-396z">
+    <!-- journal entries (날짜 기록장) -->
+    <section class="x-foot-b3su" aria-label="날짜 기록장">
+      <!-- entry 1 -->
+      <div class="x-side-yo22">
+        <div class="x-img-iafq"><time datetime="2025-03-12">2025&#8202;.&#8202;03&#8202;.&#8202;12</time></div>
+        <div class="x-item-jcz5">
+          <p><strong>‘그룹’이라는 말의 함정</strong></p>
+          <p>카드에 ‘그룹 3만 원’이라고 적혀 있다. 하지만 이 그룹이 무슨 기준인지 모르면 갈등이 생긴다. 인원인가? 회차인가? 시간인가? 업소마다 다르다. 묻기 전에 ‘그룹’이 무슨 단위인지 확인하라.</p>
         </div>
       </div>
-    
+      <!-- entry 2 -->
+      <div class="x-side-yo22">
+        <div class="x-img-iafq"><time datetime="2025-03-13">2025&#8202;.&#8202;03&#8202;.&#8202;13</time></div>
+        <div class="x-item-jcz5">
+          <p><strong>‘대실’ vs ‘주대’</strong></p>
+          <p>대흥 지역에서는 ‘대실’이 2시간 기본을 가리키는 경우가 많다. 하지만 옆 동네에서는 ‘대실’이 1시간만 뜻하기도 한다. ‘주대’는 술값이 포함된 패키지인데, 포함 품목이 들쭉날쭉이다. ‘주대 5만 원’에 음료가 포함인지 안주가 포함인지 반드시 짚고 넘어가라.</p>
+        </div>
+      </div>
+      <!-- entry 3 -->
+      <div class="x-side-yo22">
+        <div class="x-img-iafq"><time datetime="2025-03-14">2025&#8202;.&#8202;03&#8202;.&#8202;14</time></div>
+        <div class="x-item-jcz5">
+          <p><strong>‘콜’의 두 가지 얼굴</strong></p>
+          <p>업주는 ‘콜’을 예약 의사로 쓴다. 단골은 ‘콜’을 도우미 호출로 쓴다. 같은 단어가 다른 역할을 한다. 말이 꼬이면 불필요한 오해가 생긴다. ‘콜’이라는 말을 꺼낼 때는 상대방이 무슨 의미로 받아들일지 미리 생각하라.</p>
+        </div>
+      </div>
+      <!-- entry 4: blockquote (rhythm break) -->
+      <div class="x-side-yo22">
+        <div class="x-img-iafq"><time datetime="2025-03-15">2025&#8202;.&#8202;03&#8202;.&#8202;15</time></div>
+        <div class="x-item-jcz5">
+          <blockquote>“가격표를 분명히 써놨는데도 ‘왜 이렇게 비싸요?’라는 항의가 가장 많다. 손님이 개념을 모르니까 내가 불친절해진다.” — 대흥 모 업주</blockquote>
+          <p>개념 정리 비용은 가장 싸다. 말 한마디 바꾸면 불필요한 다툼이 사라진다.</p>
+        </div>
+      </div>
+      <!-- entry 5 -->
+      <div class="x-side-yo22">
+        <div class="x-img-iafq"><time datetime="2025-03-16">2025&#8202;.&#8202;03&#8202;.&#8202;16</time></div>
+        <div class="x-item-jcz5">
+          <p><strong>‘시간’은 초과 단위를 포함하는가?</strong></p>
+          <p>기본 1시간에 추가 10분당 얼마. 이 말은 모든 업소가 같게 말하지 않는다. 어떤 업소는 30분 단위로 끊고, 어떤 업소는 10분 단위로 끊는다. ‘시간’ 뒤에 붙는 단위까지 확인하지 않으면 정산 시간에 다툼이 난다.</p>
+        </div>
+      </div>
+      <!-- entry 6: 조건별 적합성 -->
+      <div class="x-side-yo22">
+        <div class="x-img-iafq"><time datetime="2025-03-17">2025&#8202;.&#8202;03&#8202;.&#8202;17</time></div>
+        <div class="x-item-jcz5">
+          <p><strong>조건별 적합성 — 인원과 방 크기</strong></p>
+          <p>방문 인원이 4명인데 ‘2인 기본’ 방을 쓰면 좁다. 업소는 보통 2인실, 4인실, 6인실로 나눈다. 인원이 맞지 않으면 업그레이드 비용이 추가된다. 방 크기와 요금표를 함께 보아야 실제 가격이 보인다.</p>
+          <p>인원이 애매하면 “4명인데 어떤 방이 적당한가요?”라고 바로 물어라. 업주도 손님이 개념을 알고 오면 더 정확히 알려준다.</p>
+        </div>
+      </div>
+      <!-- entry 7: 문의 전 최소 어휘 -->
+      <div class="x-side-yo22">
+        <div class="x-img-iafq"><time datetime="2025-03-18">2025&#8202;.&#8202;03&#8202;.&#8202;18</time></div>
+        <div class="x-item-jcz5">
+          <p><strong>문의 전에 맞춰두면 좋은 최소 어휘</strong></p>
+          <p>‘대실 시간’, ‘주대 포함 항목’, ‘콜 기준’, ‘초과 요금 단위’. 이 네 가지만 먼저 정리해도 업소와의 커뮤니케이션이 90% 이상 매끄러워진다. 문제는 손님이 이것조차 준비하지 않고 전화한다는 점이다.</p>
+          <p>무턱대고 “가격이 어떻게 돼요?”라고 묻기 전에, 위 네 가지를 종이에 적어보라. 질문의 수준이 달라진다.</p>
+        </div>
+      </div>
+      <!-- entry 8: 추가 — 할증 조건 -->
+      <div class="x-side-yo22">
+        <div class="x-img-iafq"><time datetime="2025-03-19">2025&#8202;.&#8202;03&#8202;.&#8202;19</time></div>
+        <div class="x-item-jcz5">
+          <p><strong>‘주말 할증’도 묻자</strong></p>
+          <p>평일 가격표만 보고 주말에 가면 10~20% 더 나올 수 있다. 금요일 저녁, 토요일, 공휴일은 별도 요금인 업소가 많다. ‘주말 할증이 있나요?’ 이 한마디가 예산 초과를 막는다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ section (no cards) -->
+    <section class="x-card-blf1" aria-label="자주 묻는 질문">
+      <h2>자주 묻는 질문</h2>
+      <div class="t-ico-hvne">
+        <div class="t-img-wex2">“그룹”과 “팀”은 다른 뜻인가요?</div>
+        <div class="t-txt-trzw">지역에 따라 “그룹”은 인원 단위, “팀”은 회차 단위로 쓰이기도 합니다. 업소마다 사용법이 다르니 방문 전에 확인하세요.</div>
+      </div>
+      <div class="t-ico-hvne">
+        <div class="t-img-wex2">“주대”에는 무엇이 포함되나요?</div>
+        <div class="t-txt-trzw">‘주대’는 술값이 포함된 가격인 경우가 많지만, 안주 포함 여부는 별도입니다. ‘주대 O만 원’이라는 표시만 보고 안주까지 기대하면 오해할 수 있습니다.</div>
+      </div>
+      <div class="t-ico-hvne">
+        <div class="t-img-wex2">예약 시 “콜”이라는 말을 쓰면 안 되나요?</div>
+        <div class="t-txt-trzw">쓰셔도 됩니다. 다만 상대방이 어떻게 해석할지 예민해야 합니다. ‘콜’은 예약 확인과 도우미 요청 두 가지로 쓰입니다. 문맥을 분명히 하세요.</div>
+      </div>
+      <div class="t-ico-hvne">
+        <div class="t-img-wex2">카드에 적힌 가격이 실제 결제 금액인가요?</div>
+        <div class="t-txt-trzw">기본 시간 기준일 가능성이 높습니다. 연장, 주말 할증, 인원 추가 등이 더해질 수 있습니다. 반드시 ‘이 가격은 어떤 조건인지’ 추가로 물어보세요.</div>
+      </div>
+    </section>
+
+    <!-- DOM noise: redundant wrapper (type B) -->
+    <div class="wrapper-8xQ3G7J5">
+      <section class="t-grid-jxik" aria-label="작성자 정보">
+        <p><strong>대흥길잡이</strong> — 대흥 지역 가라오케 정보를 5년간 수집해온 로컬 가이드. 표현의 차이가 오해를 부른다는 사실을 알리기 위해 이 기록을 남긴다.</p>
+      </section>
+    </div>
+
+    <!-- more DOM noise: empty aside + hidden article -->
+    <aside class="note-fR2k9" style="display:none" aria-hidden="true"></aside>
+    <article style="display:none" aria-hidden="true">이 글은 보이지 않습니다.</article>
+    <!-- HTML comments with random strings -->
+    <!-- data-random: a7B3xQ9L -->
+    <!-- data-random: zM2pW6rT -->
   </main>
-</div>
 
-
-
-<!-- PBN Recent Posts Feed Section -->
-<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">창작한 제목</h4>
-        <h3>포스트 메타정보포스트 기획 테마: 구글 상위노출 대행 현장에서 놓치기 쉬운 포인트를 기록해봤다 백링크 지시: 본문 내러티브 속에서 다음 링크를 자연스러운 발견으로 녹여라: 4-에이전트 루프 자동화 프로그램 코딩 스쿨 "승진 누락자"의 진실은 무엇인가? 분리과세</h3>
-      </div>
-      <a href="posts/field_note-002-1ohrygz.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">창작한 제목</h4>
-        <h2>포스트 메타정보포스트 기획 테마: 구글 상위노출 대행 솔직 후기 — 3개월 써본 사람의 리얼 리뷰 ### ### #### 구체적 니치 콘텐츠 작성#### 신용카드 전월 실적을 채우기 위한 소액 해외결제의 환율 스프레드가 국내 결제보다 유리한 구간 아, 진짜...</h2>
-      </div>
-      <a href="posts/review-001-1ohrygz.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    </div>
-  </div>
-</section>
-<footer>
-  <p>© 2025 구글 상위노출 대행 | 본 정보는 참고용으로 실제 상황과 차이가 있을 수 있습니다.</p>
-</footer>
+  <footer class="r-hero-2x5v" role="contentinfo">
+    <p>© 2025 대흥 가라오케 노트 · daeheung-karaoke-bar-note.tipdesk.site</p>
+  </footer>
 </body>
 </html>
