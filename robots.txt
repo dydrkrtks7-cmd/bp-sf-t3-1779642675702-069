@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://daeheung-karaoke-bar-note.tipdesk.site/sitemap.xml
-Sitemap: https://daeheung-karaoke-bar-note.tipdesk.site/sitemap-pages.xml
+Sitemap: https://sf-t3-1779642675702-069.maphoshirts.com/sitemap.xml
+Sitemap: https://sf-t3-1779642675702-069.maphoshirts.com/sitemap-pages.xml
